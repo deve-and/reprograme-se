@@ -1,0 +1,16 @@
+div, span {
+    border: 1px solid black;
+}
+
+div {
+    display: inline;
+}
+
+/* Esse puxa  o primeiro span de toda a página e só aplica estilo nele. */
+/* span:first-of-type {
+    display: block;
+} */
+
+span {
+    display: block;
+}

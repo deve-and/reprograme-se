@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+div {
+    background: antiquewhite;
+    height: 10%;
+}
+
+#div1 {
+    width: 30%;
+}
+
+#div2 {
+    width: 10%;
+}
+
+#div3 {
+    width: 40%;
+}
+
+#div4 {
+    width: 70%;
+}
+
+#div5 {
+    width: 60%;
+}

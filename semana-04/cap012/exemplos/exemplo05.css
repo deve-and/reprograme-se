@@ -1,0 +1,8 @@
+/* Mudança não afeta os elementos se forem inline*/
+
+span {
+    border: solid 1px black;
+    height: 100px;
+    width: 300px;
+    display: inline-block;
+}

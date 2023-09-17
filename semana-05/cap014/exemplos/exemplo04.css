@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+}
+
+body {
+    background: #fff7d8;
+    margin: 10px;
+}
+
+header, nav, article, footer {
+    color: #fff7d8;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 100px 500px 100px;
+}
+
+header {
+    background: #949ce9;
+    /* Indica onde o cabeçalho vai começar e terminar */
+    grid-column: 1 / -4;
+}
+
+nav {
+    background: #a7a7a7;
+    grid-column: -4 / -1;
+    grid-row: 1 / -1;
+}
+
+article {
+    background: #e7e7e7;
+    color: #949ce9;
+    grid-column: 1 / -4;
+}
+
+footer {
+    background: #373a58;
+    /* Valor negativo indica a linha 3 porém em valor negativo */
+    grid-column: 1 / -4; 
+}

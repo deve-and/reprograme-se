@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 7.8</title>
+  </head>
+  <body>
+    <!-- Crie um formulário HTML com uma caixa de seleção para escolher um país e um campo de texto para inserir o endereço. Utilize o elemento <textarea> para o campo de texto e o atributo required do elemento <select> para tornar a escolha do país obrigatória. Adicione um botão de envio e utilize o atributo method do elemento <form> para definir o método HTTP como POST. -->
+    <form method="post">
+      <p>
+        <label for="txtPais">Informe o país?</label><br />
+        <select name="pais" id="txtPais" required>
+          <option value="BR">Brasil</option>
+          <option value="USA">Estados Unidos</option>
+          <option value="JP">Japão</option>
+          <option value="PT">Portugal</option>
+          <option value="FR">França</option></select
+        ><br />
+        <textarea
+          name="endereço"
+          id="txtEndereco"
+          cols="30"
+          rows="5"
+          placeholder="Informe seu endereço completo"
+        ></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+      </p>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+body {
+    background: #ffeead;
+    margin: 10px;
+}
+
+.conteiner>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #ffeead;
+}
+
+.conteiner>div:nth-child(1n) {
+    background: #96ceb4;
+}
+
+.conteiner>div:nth-child(2n) {
+    background: #ff6f69;
+}
+
+.conteiner>div:nth-child(3n) {
+    background: #a4a3e7;
+}
+
+.conteiner>div:nth-child(4n) {
+    background: #ffcc4c;
+}
+
+.conteiner {
+    display: grid;
+    /* A definição de linha vem primeiro que as de colunas no shorthands grid-template */
+    grid-template:repeat(2, 50px) / repeat(3, 1fr); 
+    /* grid-template-rows: repeat(2, 50px); */
+    grid-gap: 10px;
+}

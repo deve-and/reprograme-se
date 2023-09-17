@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+    background: #fff7d8;
+    margin: 10px;
+}
+
+main > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #aaa;
+}
+
+main > div:nth-child(1n) {
+    background: #358d61;
+}
+
+main > div:nth-child(3n) {
+    background: #e5c6ca;
+}
+
+main > div:nth-child(2n) {
+    background: #ffcc5c;
+}
+
+main > div:nth-child(4n) {
+    background: #eee;
+}
+
+main {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
+    grid-auto-rows: 100px;
+}

@@ -1,0 +1,23 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.caixa1 {
+    background-color: red;
+    z-index: 1;
+}
+
+.caixa2 {
+    background-color: green;
+    z-index: -1;
+    margin-top: 50px;
+
+}
+
+.caixa3 {
+    background-color: blue;
+    z-index: 2;
+}

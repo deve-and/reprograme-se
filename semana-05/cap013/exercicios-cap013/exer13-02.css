@@ -1,0 +1,10 @@
+div {
+    display: flex;
+}
+
+#div1, #div2, #div3 {
+    width: 20vw;
+    height: 20vh;
+    background: linear-gradient(red, green, blue);
+    margin-right: 20px;
+}

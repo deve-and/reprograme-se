@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 7.9</title>
+  </head>
+  <body>
+    <!-- Crie um formulário HTML com dois campos de seleção de horário para escolher o horário de início e de término de uma reserva em um hotel. Adicione um campo de texto para inserir o nome do hóspede e um botão de envio. Utilize o atributo method do elemento <form> para definir o método HTTP como POST e o atributo action para enviar o formulário para um script PHP que irá processar este formulário. -->
+
+    <form action="processarForm.php" method="post">
+      <p>
+        <label for="hrInicio">Informe o horário de início:</label><br />
+        <input type="time" name="hrInicio" id="hrInicio" required />
+      </p>
+      <p>
+        <label for="hrFim">Informe o horário de encerramento:</label><br />
+        <input type="time" name="hrFim" id="hrFim" required />
+      </p>
+      <p>
+        <label for="txtNome">Informe seu nome completo:</label><br />
+        <input type="text" name="nome" id="txtNome" required />
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+      </p>
+    </form>
+  </body>
+</html>

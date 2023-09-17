@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 7.4</title>
+  </head>
+  <body>
+    <!-- Crie um formulário HTML com um campo de texto para receber a idade do usuário e um campo de seleção para escolher o gênero (masculino, feminino ou outro). Adicione um botão de envio e utilize o atributo required do elemento <input> para tornar os campos obrigatórios. -->
+
+    <form>
+      <p>
+        <label for="idade">Idade</label><br />
+        <input type="number" name="idade" id="idade" required />
+      </p>
+      <p>
+        <label for="genero">Genero</label><br />
+        <select name="genero" id="genero" required>
+          <option value="M">Masculino</option>
+          <option value="F">Feminino</option>
+          <option value="O">Outro</option>
+        </select>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+      </p>
+    </form>
+  </body>
+</html>

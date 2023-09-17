@@ -1,0 +1,23 @@
+.conteiner {
+    border: dashed 5px black;
+    margin: 0 auto;
+    width: 100vh;
+    height: 80vh;
+    padding: 10px;
+
+    display: flex;
+    gap: 5px;
+}
+
+.conteiner .menuEsquerda, .menuDireita {
+    width: 20vw;
+    height: auto;
+    background: linear-gradient(orange, black);
+}
+
+.conteudo {
+    width: 80vw;
+    height: auto;
+    background: linear-gradient(black, orange);
+}
+

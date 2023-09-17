@@ -1,0 +1,43 @@
+/* por algum motivo a div.conteudo não está ficando no local correto e não consegui identificar o erro... */
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div.conteiner {
+    width: 80vw;
+    height: 100vh;
+    background-color: gainsboro;
+    margin: 0 auto;
+}
+
+div.cabecalho {
+    height: 120px;
+    background-color: antiquewhite;
+}
+
+div.corpo {
+    background-color: gray;
+    height: calc(100vh - 240px);
+}
+
+div.menu {
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    background-color: lightcoral;
+}
+
+div.conteudo {
+    display: inline-block;
+    background-color: lightseagreen;
+    height: 100%;
+    width: calc(80vw - 150px);
+}
+
+div.rodape {
+    background-color: orange;
+    height: 120px;
+}

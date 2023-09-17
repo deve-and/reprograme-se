@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 7.5</title>
+  </head>
+  <body>
+    <!-- Crie um formulário HTML com um campo de texto para o endereço de e-mail e um campo de seleção para escolher um assunto (dúvida, sugestão ou reclamação). Adicione um campo de texto longo para a mensagem e um botão de envio. Utilize o atributo mailto do elemento <form> para enviar o formulário por e-mail. -->
+
+    <form action="mailto:meu@email.com">
+      <p>
+        <label for="txtEmail">E-mail</label><br />
+        <input type="email" name="email" id="txtEmail" required />
+      </p>
+      <p>
+        <label for="txtAssunto">Assunto</label><br />
+        <select name="assunto" id="txtAssunto">
+          <option value="duvida">Dúvida</option>
+          <option value="sugestao">Sugestão</option>
+          <option value="reclamacao">Reclamação</option></select
+        ><br />
+        <textarea name="assunto" id="txtOpiniao" cols="30" rows="10"></textarea>
+      </p>
+      <p>
+        <input type="submit" value="Enviar" />
+      </p>
+    </form>
+  </body>
+</html>

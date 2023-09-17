@@ -1,0 +1,6 @@
+div {
+    display: flex;
+    width: 20vw;
+    height: 20vh;
+    background: linear-gradient(red, green, blue);
+}

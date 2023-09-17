@@ -1,0 +1,27 @@
+.caixa-flex {
+    width: 80vw;
+    height: 100%;
+    margin: 0 auto;
+    border: dashed 5px black;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#div1,
+#div2,
+#div3,
+#div4,
+#div5,
+#div6 {
+    width: 20vw;
+    height: 20vh;
+    background: linear-gradient(orange, black);
+    margin: 10px;
+
+    color: #fff;
+    font-size: 100px;
+    line-height: 200px;
+    text-align: center;
+}
+
