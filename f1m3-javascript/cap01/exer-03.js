@@ -4,15 +4,15 @@
  */
 
 
-const prompt = require("prompt-sync");
+const prompt = require("prompt-sync")();
 
 const modelo = prompt("Modelo do veículo: ");
 const km = parseInt(prompt("Km rodados: "));
-const combustivel = parseFloat(prompt("Combustível consumido : "));
+const combustivel = parseFloat(prompt("Combustível consumido: "));
 
 let consumo = km / combustivel;
 
-console.log("O consumo do carro:", modelo,"é de:", consumo,"km/litro");
+console.log("O consumo do carro:", modelo, "é de:", consumo, "km/litro");
 
 
 
